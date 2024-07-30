@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/527962c75f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/channels4_profile (1).jpg" alt="logo"
+                    class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Film Maker</p>
+                <h1>Hi, I'm <span>Manoj Thella</span><br> From Telangana</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-07-30 at 4.29.19 PM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a recent graduate with hands-on experience in film production and direction, I have a strong foundation in directing, screenwriting, editing, and cinematography. My year-long role as an Assistant Director at FTIH Film School provided me with practical experience in managing film sets, coordinating with actors and crew, and contributing to the creative vision of a demo film. With a passion for storytelling and a keen eye for detail, I'm excited to advance my career in film direction. I am seeking opportunities where I can further hone my skills, collaborate with talented professionals, and make a significant impact in the film industry.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skills-list">
+                            <li class="skill-item">Directing</li>
+                            <li class="skill-item">Screenwriting</li>
+                            <li class="skill-item">Editing</li>
+                            <li class="skill-item">Cinematography</li>
+                            <li class="skill-item">Production</li>
+                            <li class="skill-item">Storytelling</li>
+                            <li class="skill-item">Visual Effects</li>
+                            <li class="skill-item">Lighting</li>
+                            <li class="skill-item">Production Design</li>
+                            <li class="skill-item">Sound Design</li>
+                        </ul>
+                    </div>
+                    
+
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li>
+                                <span>1 Year</span><br>
+                                <strong>Company Name:</strong> FTIH Film School<br>
+                                <strong>Position:</strong> Assistant Director<br>
+                                <strong>Description:</strong> As an Assistant Director at FTIH Film School, I played a key role in the production of a demo film. My responsibilities included:
+                                <ul>
+                                    <li>Assisting the director with scene planning and execution.</li>
+                                    <li>Coordinating with actors and crew to ensure smooth operations on set.</li>
+                                    <li>Helping with the management of production schedules and script revisions.</li>
+                                    <li>Contributing to the overall creative process and vision of the film.</li>
+                                </ul>
+                                <strong>Demo Film Link:</strong> <a href="https://www.youtube.com/watch?v=aUpR6j223EA" target="_blank">Watch here</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2018 - 2022</span><br>
+                                <strong>B-Tech</strong><br>
+                                College Name: Jyothishmathi Institute of Technology and Science
+                                <br>
+                                Branch: Computer Science and Engineering (CSE)
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services------------->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title-services">My <span>Projects</span></h1>
+                <div class="services-list">
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QSuFKByG_R0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_3w07AEq7ik" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlv_r8gLfD8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GY0NKydmfRk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2uSiKheIfAY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VJ5NdJ0AHlw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0k_PqJO0sEo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="service-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ilaUrQpeesY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- -------portfolio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/editing.jpg" alt="Directing">
+                    <div class="layer">
+                        <h3>Film Directing</h3>
+                        <p>Offering expertise in directing film projects, from conceptualization to final cut. My approach ensures a cohesive narrative and a compelling visual style.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="images/images.jpeg" alt="Screenwriting">
+                    <div class="layer">
+                        <h3>Screenwriting</h3>
+                        <p>Crafting engaging and well-structured screenplays that capture audiences and drive powerful storytelling.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="images/film_editing.jpeg" alt="Editing">
+                    <div class="layer">
+                        <h3>Film Editing</h3>
+                        <p>Providing professional editing services to enhance the narrative flow, pacing, and visual appeal of film projects.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="images/Cinematography-Manual.jpg" alt="Cinematography">
+                    <div class="layer">
+                        <h3>Cinematography</h3>
+                        <p>Delivering high-quality cinematography to bring cinematic visions to life with attention to detail and artistic flair.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+
+
+
+    <!-- ---------contact--------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> thellamanojmanu@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/manoj_thella/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/manoj thella resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © manoj <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfU6EcqhVhJjXep-EiRAv8fnLaJJ1meLWDnaN25ClORKVAuZuxOetBE0Pb-l5iuY-m/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById('msg');
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
