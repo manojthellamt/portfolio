@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Thella | AI Filmmaker & Creative Director</title>
+    <meta name="description" content="AI Filmmaker, Prompt Engineer & Creative Director building AI-powered creative systems for the future.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="images/channels4_profile (1).jpg">
+    <script src="https://kit.fontawesome.com/527962c75f.js" crossorigin="anonymous"></script>
+
+    <!-- ===== GOOGLE ADS — replace AW-XXXXXXXXXX with your Conversion ID ===== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        // Global site tag config — swap in your real ID
+        gtag('config', 'AW-XXXXXXXXXX');
+        // Remarketing audience tracking
+        gtag('config', 'AW-XXXXXXXXXX', { 'send_page_view': true });
+    </script>
+
+    <!-- Prevent theme flash: apply saved theme before first paint -->
+    <script>
+        (function() {
+            var t = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
+</head>
+
+<body>
+
+    <!-- ========== NAV ========== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <img src="images/channels4_profile (1).jpg" alt="Manoj Thella" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Timeline</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <!-- Dark / Light toggle -->
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+                <i id="themeIcon" class="fas fa-sun"></i>
+            </button>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <div id="header">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="header-text">
+                <p class="hero-label">AI Filmmaker &amp; Creative Director</p>
+                <h1>Hi, I'm <span>Manoj Thella</span></h1>
+                <p class="hero-tagline">Building AI-Powered Creative Systems for the Future</p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn-outline">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+            <span class="scroll-cue-text">Scroll</span>
+            <span class="scroll-cue-mouse"><span class="scroll-cue-dot"></span></span>
+        </a>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-07-30 at 4.29.19 PM.jpeg" alt="Manoj Thella">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm an AI Filmmaker, Prompt Engineer, and Creative Director with 6+ years of experience at the intersection of generative AI and cinematic storytelling. From previsualization on major Telugu feature films to founding Tech Verse Studios, I architect AI-powered creative pipelines that transform ideas into production-ready content at scale.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience-tab')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-category">
+                            <h4 class="skills-cat-title">AI &amp; Generative Tools</h4>
+                            <ul class="skills-list">
+                                <li class="skill-item">ChatGPT</li>
+                                <li class="skill-item">Claude</li>
+                                <li class="skill-item">Gemini</li>
+                                <li class="skill-item">Runway</li>
+                                <li class="skill-item">Veo</li>
+                                <li class="skill-item">Midjourney</li>
+                                <li class="skill-item">ComfyUI</li>
+                                <li class="skill-item">Whisk</li>
+                                <li class="skill-item">ElevenLabs</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category">
+                            <h4 class="skills-cat-title">Creative &amp; Production</h4>
+                            <ul class="skills-list">
+                                <li class="skill-item">Prompt Engineering</li>
+                                <li class="skill-item">AI Filmmaking</li>
+                                <li class="skill-item">Creative Direction</li>
+                                <li class="skill-item">Storytelling</li>
+                                <li class="skill-item">Workflow Design</li>
+                                <li class="skill-item">Adobe Premiere Pro</li>
+                                <li class="skill-item">After Effects</li>
+                                <li class="skill-item">Photoshop</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category">
+                            <h4 class="skills-cat-title">Growth &amp; Strategy</h4>
+                            <ul class="skills-list">
+                                <li class="skill-item">YouTube SEO</li>
+                                <li class="skill-item">Google Ads</li>
+                                <li class="skill-item">YouTube Ads</li>
+                                <li class="skill-item">Content Strategy</li>
+                                <li class="skill-item">Google Analytics</li>
+                                <li class="skill-item">CTR Optimization</li>
+                                <li class="skill-item">Audience Research</li>
+                                <li class="skill-item">Keyword Research</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="experience-tab">
+                        <ul class="exp-list">
+                            <li>
+                                <span class="exp-role">Generative AI Creator</span>
+                                <span class="exp-company">Pocket FM</span>
+                                <span class="exp-desc">Prompt Engineer &amp; Editor for AI-generated audio content at scale.</span>
+                            </li>
+                            <li>
+                                <span class="exp-role">Lead Generative AI Creator</span>
+                                <span class="exp-company">Quantum Cut Films</span>
+                                <span class="exp-desc">Led prompt engineering for Hybrid AI + Live Action production workflows.</span>
+                            </li>
+                            <li>
+                                <span class="exp-role">AI Filmmaker</span>
+                                <span class="exp-company">Peoples Media Factory</span>
+                                <span class="exp-desc">Previsualization artist for Raja Saab, Pinaka, and additional feature film projects.</span>
+                            </li>
+                            <li>
+                                <span class="exp-role">Founder</span>
+                                <span class="exp-company">Tech Verse Studios</span>
+                                <span class="exp-desc">Team management, AI pipeline development, production planning, and scalable AI systems.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul class="exp-list">
+                            <li>
+                                <span class="exp-role">B.Tech – Computer Science Engineering</span>
+                                <span class="exp-company">Jyothishmathi Institute of Technology and Science</span>
+                                <span class="exp-desc">2018 – 2022</span>
+                            </li>
+                            <li>
+                                <span class="exp-role">D.F.Tech – Direction &amp; Writing</span>
+                                <span class="exp-company">Film Direction &amp; Screenwriting Specialization</span>
+                                <span class="exp-desc">Advanced techniques in cinematic storytelling and direction.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== PROFESSIONAL HIGHLIGHTS ========== -->
+    <section id="highlights">
+        <div class="container">
+            <h1 class="sub-title-center">Professional <span>Highlights</span></h1>
+            <div class="highlights-grid">
+                <div class="highlight-card fade-in">
+                    <div class="highlight-number">6+</div>
+                    <div class="highlight-label">Years Experience</div>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-number">7</div>
+                    <div class="highlight-label">Feature Film Projects</div>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-number">80M+</div>
+                    <div class="highlight-label">YouTube Views</div>
+                </div>
+                <div class="highlight-card fade-in">
+                    <div class="highlight-number">100K+</div>
+                    <div class="highlight-label">Subscribers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CAREER TIMELINE ========== -->
+    <section id="experience">
+        <div class="container">
+            <h1 class="sub-title-center">Career <span>Timeline</span></h1>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">01</span>
+                        <h3>Education</h3>
+                        <p>B.Tech CSE + D.F.Tech Direction &amp; Writing</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">02</span>
+                        <h3>Film Direction</h3>
+                        <p>Early career in film production and direction</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">03</span>
+                        <h3>AI Filmmaker</h3>
+                        <p>Peoples Media Factory — Raja Saab &amp; Pinaka previsualization</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">04</span>
+                        <h3>Lead AI Creator</h3>
+                        <p>Quantum Cut Films — Hybrid AI + Live Action</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">05</span>
+                        <h3>Generative AI Creator</h3>
+                        <p>Pocket FM — Prompt Engineering at scale</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">06</span>
+                        <h3>Founder</h3>
+                        <p>Tech Verse Studios — AI systems &amp; pipeline development</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-future fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">→</span>
+                        <h3>Future Vision</h3>
+                        <p>Scaling AI-powered creative systems globally</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== METHODOLOGIES ========== -->
+    <section id="workflows">
+        <div class="container">
+            <h1 class="sub-title-center">My <span>Methodologies</span></h1>
+            <div class="workflow-grid">
+                <div class="workflow-card fade-in">
+                    <div class="workflow-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Prompt Engineering</h3>
+                    <div class="workflow-steps">
+                        <span class="wf-step">Business Goal</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Research</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Prompt Architecture</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Iteration</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Testing</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Output Evaluation</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Final Production</span>
+                    </div>
+                </div>
+                <div class="workflow-card fade-in">
+                    <div class="workflow-icon"><i class="fas fa-film"></i></div>
+                    <h3>AI Production Pipeline</h3>
+                    <div class="workflow-steps">
+                        <span class="wf-step">Client Requirement</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Research</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Script</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Prompt Design</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Image Gen</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Video Gen</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Voice Gen</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Editing</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">QA Review</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Final Delivery</span>
+                    </div>
+                </div>
+                <div class="workflow-card fade-in">
+                    <div class="workflow-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Content Strategy Workflow</h3>
+                    <div class="workflow-steps">
+                        <span class="wf-step">Audience Research</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Content Planning</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">SEO</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Publishing</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Optimization</span>
+                        <i class="fas fa-chevron-right wf-arrow"></i>
+                        <span class="wf-step">Growth</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== YOUTUBE GROWTH ========== -->
+    <section id="youtube">
+        <div class="container">
+            <h1 class="sub-title-center">YouTube <span>Growth</span></h1>
+            <p class="section-desc">Director, SEO Strategist &amp; Content Architect across multiple channels — 50M–80M+ Views &amp; 100K+ Subscribers.</p>
+
+            <!-- Main / Featured Channel -->
+            <div class="channel-featured fade-in">
+                <div class="channel-featured-left">
+                    <div class="channel-featured-icon"><i class="fab fa-youtube"></i></div>
+                    <div>
+                        <span class="channel-featured-badge">Main Channel</span>
+                        <h2 class="channel-featured-name">Mana Clips</h2>
+                        <p class="channel-featured-handle">@ManaClipss</p>
+                    </div>
+                </div>
+                <div class="channel-featured-right">
+                    <div class="channel-stat">
+                        <span class="stat-num">50M–80M+</span>
+                        <span class="stat-lbl">Total Views</span>
+                    </div>
+                    <div class="channel-stat">
+                        <span class="stat-num">100K+</span>
+                        <span class="stat-lbl">Subscribers</span>
+                    </div>
+                    <a href="https://www.youtube.com/@ManaClipss" target="_blank" rel="noopener" class="btn-subscribe">
+                        <i class="fab fa-youtube"></i> Visit Channel
+                    </a>
+                </div>
+            </div>
+
+            <!-- Other Channels -->
+            <div class="youtube-channels">
+                <a href="https://www.youtube.com/@svrrentertainment7230" target="_blank" rel="noopener" class="channel-card fade-in">
+                    <div class="channel-icon"><i class="fab fa-youtube"></i></div>
+                    <h3>SVRR Entertainments</h3>
+                    <p>Telugu Entertainment Content</p>
+                    <span class="channel-link-cta">Visit Channel <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.youtube.com/@TheStoryTelleru" target="_blank" rel="noopener" class="channel-card fade-in">
+                    <div class="channel-icon"><i class="fab fa-youtube"></i></div>
+                    <h3>The Story Teller</h3>
+                    <p>Narrative-Driven Content</p>
+                    <span class="channel-link-cta">Visit Channel <i class="fas fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.youtube.com/@manoj_thella" target="_blank" rel="noopener" class="channel-card fade-in">
+                    <div class="channel-icon"><i class="fab fa-youtube"></i></div>
+                    <h3>Manoj Thella</h3>
+                    <p>Personal Brand &amp; AI Content</p>
+                    <span class="channel-link-cta">Visit Channel <i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects">
+        <div class="container">
+            <h1 class="sub-title-center">My <span>Projects</span></h1>
+
+            <!-- Channel attribution bar -->
+            <div class="projects-channel-bar fade-in">
+                <span class="pcb-label"><i class="fab fa-youtube"></i> Mana Clips — <strong>@ManaClipss</strong></span>
+                <a href="https://www.youtube.com/@ManaClipss" target="_blank" rel="noopener" class="pcb-link">
+                    View All Videos <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="services-list">
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QSuFKByG_R0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_3w07AEq7ik" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qlv_r8gLfD8" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GY0NKydmfRk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2uSiKheIfAY" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VJ5NdJ0AHlw" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0k_PqJO0sEo" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="service-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ilaUrQpeesY" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title-center">My <span>Services</span></h1>
+            <div class="work-list">
+                <div class="work fade-in">
+                    <img src="images/editing.jpg" alt="AI Filmmaking">
+                    <div class="layer">
+                        <h3>AI Filmmaking</h3>
+                        <p>End-to-end AI film production from concept to final cut using Runway, Veo, and Midjourney.</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work fade-in">
+                    <img src="images/images.jpeg" alt="Prompt Engineering">
+                    <div class="layer">
+                        <h3>Prompt Engineering</h3>
+                        <p>Architecting precise, scalable prompts that produce production-quality AI outputs across text, image, and video models.</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work fade-in">
+                    <img src="images/film_editing.jpeg" alt="Content Strategy">
+                    <div class="layer">
+                        <h3>Content Strategy</h3>
+                        <p>YouTube growth strategies and SEO optimization that have driven 50M–80M+ views across multiple channels.</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work fade-in">
+                    <img src="images/Cinematography-Manual.jpg" alt="AI Pipeline">
+                    <div class="layer">
+                        <h3>AI Production Pipeline</h3>
+                        <p>Designing and managing complete AI production workflows from client brief through final delivery.</p>
+                        <a href="#contact"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== AWARDS & ACHIEVEMENTS ========== -->
+    <section id="awards">
+        <div class="container">
+            <h1 class="sub-title-center">Awards &amp; <span>Achievements</span></h1>
+            <div class="awards-grid">
+                <div class="award-card fade-in">
+                    <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Awards</h3>
+                    <p>Industry recognition for AI-powered film production and creative innovation.</p>
+                </div>
+                <div class="award-card fade-in">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certifications</h3>
+                    <p>Professional certifications in AI, content strategy, and digital marketing.</p>
+                </div>
+                <div class="award-card fade-in">
+                    <div class="award-icon"><i class="fas fa-microphone"></i></div>
+                    <h3>Public Speaking</h3>
+                    <p>Talks and workshops on AI filmmaking, prompt engineering, and creative workflows.</p>
+                </div>
+                <div class="award-card fade-in">
+                    <div class="award-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community</h3>
+                    <p>Active contributor to AI filmmaking communities and training programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials">
+        <div class="container">
+            <h1 class="sub-title-center">What People <span>Say</span></h1>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">An exceptional AI filmmaker who transforms creative visions into stunning visual realities with cutting-edge generative AI tools.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <span class="author-name">Director</span>
+                            <span class="author-role">Peoples Media Factory</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">Manoj's prompt engineering methodology is both systematic and creative — he consistently delivers production-quality outputs at scale.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <span class="author-name">Client</span>
+                            <span class="author-role">Quantum Cut Films</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">His content strategy and YouTube growth expertise took our channel from zero to 100K+ subscribers with a clear, data-driven approach.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <span class="author-name">Team Member</span>
+                            <span class="author-role">Tech Verse Studios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> thellamanojmanu@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@ManaClipss" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/manoj_thella/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manojthella/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/Manoj_Thella_Resume_direction.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        </div>
+    </div>
+
+    <!-- Scroll to top -->
+    <button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script>
+        // Tab switching
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        // Mobile menu
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-260px";
+        }
+    </script>
+
+    <script>
+        // Contact form + Google Ads conversion
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfU6EcqhVhJjXep-EiRAv8fnLaJJ1meLWDnaN25ClORKVAuZuxOetBE0Pb-l5iuY-m/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById('msg');
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            // Fire Google Ads conversion — replace CONVERSION_LABEL with your label
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-XXXXXXXXXX/CONVERSION_LABEL',
+                    'value': 1.0,
+                    'currency': 'USD'
+                });
+            }
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(() => {
+                    msg.innerHTML = "Message sent successfully!";
+                    setTimeout(() => { msg.innerHTML = ""; }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+
+    <script>
+        // ===== Dark / Light mode toggle =====
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon   = document.getElementById('themeIcon');
+
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        // Initialise icon to match the theme already applied (no-flash script ran first)
+        applyTheme(localStorage.getItem('theme') || 'dark');
+
+        themeToggle.addEventListener('click', () => {
+            const current = document.documentElement.getAttribute('data-theme');
+            applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+    </script>
+
+    <script>
+        // Sticky nav shadow on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('nav-scrolled');
+            } else {
+                navbar.classList.remove('nav-scrolled');
+            }
+            // Show/hide scroll-to-top
+            const btn = document.getElementById('scrollTop');
+            btn.style.opacity = window.scrollY > 400 ? '1' : '0';
+            btn.style.pointerEvents = window.scrollY > 400 ? 'auto' : 'none';
+        });
+
+        // Intersection observer for fade-in
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+    <script>
+        // ===== Scrollspy — highlight active nav link =====
+        const navLinks = document.querySelectorAll('#sidemenu li a');
+        const spySections = [...navLinks]
+            .map(link => document.querySelector(link.getAttribute('href')))
+            .filter(Boolean);
+
+        const spyObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+                    });
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+        spySections.forEach(sec => spyObserver.observe(sec));
+    </script>
+
+</body>
+</html>
